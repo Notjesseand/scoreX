@@ -5,7 +5,7 @@ import Sidebar from "./sidebar";
 
 const Nav = () => {
   return (
-    <div className="flex justify-between py-6 px-5 sm:px-8 lg:px-14">
+    <div className="flex justify-between py-6 px-5 sm:px-8 lg:px-14 fixed w-full">
       <div className="flex ">
         <p className="text-[#0a7339] text-2xl font-semibold font-montserrat">
           APEX
