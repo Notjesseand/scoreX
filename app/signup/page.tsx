@@ -50,7 +50,7 @@ const page = () => {
         <input
           type="submit"
           value="sign up"
-          className=" flex border mt-10 rounded-lg py-2.5 font-nunito bg-[#111] text-white text-lg cursor-pointer border-[#f52f3b]"
+          className=" flex border mt-14 rounded-lg py-2.5 font-nunito bg-[#111] text-white text-lg cursor-pointer border-[#f52f3b]"
         />
       </form>
     </div>
