@@ -18,8 +18,8 @@ const Nav = () => {
         </div>
       </div>
       <div className="font-nunito hidden md:flex">
-        <button className="py-2 px-5 rounded-full hover:bg-green-200 transition-all duration-300 bg-green-100 text-blue-950 flex items-center">
-          Apply for funding <IoIosArrowRoundForward className="ml-2 text-lg" />
+        <button className="py-2 px-5 rounded-full hover:bg-green-200 transition-all duration-300 bg-green-200 text-blue-950 flex items-center">
+          Apply for funding <IoIosArrowRoundForward className="ml-1 text-lg" />
         </button>
       </div>
       <div className="flex md:hidden">
