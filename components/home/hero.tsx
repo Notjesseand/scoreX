@@ -21,19 +21,23 @@ const hero = () => {
         </p>
         {/* buttons */}
         <div className="flex pt-10 gap-4 justify-start items-start text-left w-full">
-          <button className="px-5 py-2.5 rounded-full bg-[#005f54] text-white flex items-center">
+          <button className="px-2 sm:px-5 py-2.5 rounded-full bg-[#005f54] text-white flex items-center">
             Apply for funding{" "}
             <IoIosArrowRoundForward className="ml-1 text-lg" />
           </button>
-          <button className="px-5 py-2.5 rounded-full bg-[#005f54] text-white flex items-center">
-            Apply for funding{" "}
+          <button className="px-5 py-2.5 rounded-full bg-green-200 text-[#005f54] flex items-center">
+            Join as an investor
             <IoIosArrowRoundForward className="ml-1 text-lg" />
           </button>
         </div>
       </div>
       {/* second column */}
       <div className="flex items-center">
-        <img src="background.jpg" alt="" className=" w-4/5 lg:w-3/5 flex mx-auto"/>
+        <img
+          src="background.jpg"
+          alt=""
+          className=" w-4/5 lg:w-3/5 flex mx-auto"
+        />
       </div>
     </div>
   );
